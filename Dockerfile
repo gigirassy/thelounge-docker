@@ -2,11 +2,11 @@ FROM node:18-alpine
 
 ARG THELOUNGE_VERSION=4.4.3
 
-LABEL org.opencontainers.image.title "Official The Lounge image"
-LABEL org.opencontainers.image.description "Official Docker image for The Lounge, a modern web IRC client designed for self-hosting."
+LABEL org.opencontainers.image.title "nune the lounge image"
+LABEL org.opencontainers.image.description "boop"
 LABEL org.opencontainers.image.authors "The Lounge #thelounge @irc.libera.chat"
-LABEL org.opencontainers.image.url "https://github.com/thelounge/thelounge-docker"
-LABEL org.opencontainers.image.source "https://github.com/thelounge/thelounge-docker"
+LABEL org.opencontainers.image.url "https://github.com/gigirassy/thelounge-docker"
+LABEL org.opencontainers.image.source "https://github.com/gigirassy/thelounge-docker"
 LABEL org.opencontainers.image.version "${THELOUNGE_VERSION}"
 LABEL org.opencontainers.image.licenses "MIT"
 
